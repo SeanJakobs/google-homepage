@@ -1,0 +1,210 @@
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: rgb(95, 99, 104);
+  }
+  
+  nav {
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15px;
+    /* overflow: hidden; */
+  
+  }
+  
+  li {
+    display: block;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+  
+  nav li {
+    padding: 22px 10px;  
+  }
+  
+  footer li {
+    padding: 13px 10px;
+  }
+  
+  .nav-right {
+    float: right;
+  }
+  
+  .header-right:nth-of-type(3) {
+    padding: 6px 10px 0 10px;
+  }
+  
+  nav button {
+    float: right;
+    margin: 10px 10px;
+  }
+  #signIn {
+    padding-top: 4px;
+    padding-left: 2px;
+  }
+  
+  #signIn button {
+    font: inherit;
+    color: white;
+      cursor: pointer;
+      outline: inherit;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+    background: #4285f4;
+    padding: 8px 15px;
+  }
+  
+  #apps {
+   padding-top: 12px;
+   padding-left: 6px
+  }
+  
+  #apps button{
+    background: url(https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-32.png);
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color:inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-buttons-container {
+    /* display: inline-block; */
+    /* float: right; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .search-buttons {
+    margin: 0 4px;
+    background: #f0f0f0;
+      color: #5F6368;
+      border: 1px solid #f2f2f2;
+    border-radius: 5px;
+      padding: 10px 20px;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+  }
+  
+  .search-buttons:hover {
+    border: 1px solid #c6c6c6;
+    color: black;
+  }
+  
+  .logo-container {
+    display:flex;
+    justify-content:center;
+    width:100%;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 115px;
+    /* text-align: center; */
+    /* float: left; */
+  
+  }
+  
+  .search {
+    /* display: block; */
+    /* margin: 0 auto; */
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    /* display: flex; */
+  }
+  
+  form {
+    flex: 1;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .search-bar {
+    border-style: solid;
+    width: 385px;
+    padding: 15px 40px;
+    border-width: 1px;
+    border-color: #dedede;
+    border-radius: 45px;
+  }
+  
+  #microphone-icon {
+   background: url(https://www.gstatic.com/images/branding/googlemic/1x/googlemic_color_24dp.png);
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    vertical-align: center;
+    position: relative;
+    right: 45px;
+    top: 12px;
+  }
+  
+  #search-icon {
+   background: url(https://icon-library.net/images/white-search-icon-png/white-search-icon-png-18.jpg);
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    vertical-align: center;
+    position: relative;
+    background-size: contain;
+    left: 35px;
+    top: 12px;
+  
+   
+  }
+  
+  input:focus {
+    outline: 0;
+    border: 1px solid #dedede;
+    -webkit-box-shadow: 0px 0px 5px #dedede;
+    -moz-box-shadow: 0px 0px 5px #dedede;
+    box-shadow: 0px 0px 5px#dedede;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* height: 40px; */
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+  .footer-left {
+    float: left;
+  }
+  
